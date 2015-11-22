@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bbgregister">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+
+        android:id="@+id/registerName"
+        android:layout_marginTop="71dp"
+        android:hint="First Name"
+        android:maxLength="20"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/registerLastName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:ems="10"
+        android:maxLength="20"
+        android:id="@+id/registerLastName"
+        android:layout_alignTop="@+id/registerName"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/registerUsername"
+        android:maxLength="12"
+        android:hint="Username"
+        android:layout_above="@+id/registerPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/registerPasswordConfirm" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:id="@+id/registerPassword"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/registerUsername" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:maxLength="20"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Comfirm password"
+        android:ems="10"
+        android:id="@+id/registerPasswordConfirm"
+        android:layout_below="@+id/registerPassword"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/registerEmailAddress"
+        android:hint="Email address"
+        android:layout_below="@+id/registerName"
+        android:layout_toRightOf="@+id/textView4" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/registerPasswordConfirm"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/registerfinal"
+        android:layout_alignRight="@+id/registerPasswordConfirm">
+
+        <Spinner
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/Year"
+            android:text="Year"
+            android:id="@+id/registerYear" />
+
+        <Spinner
+            android:layout_width="78dp"
+            android:text="Month"
+            android:entries="@array/month"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerMonth" />
+        <Spinner
+            android:layout_width="78dp"
+            android:text="Day"
+            android:entries="@array/day"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerDay" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Birthday"
+        android:id="@+id/textView4"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/registerEmailAddress"
+        android:layout_toLeftOf="@+id/registerPasswordConfirm" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:onClick="ClearFemale"
+        android:id="@+id/maleButton"
+        android:checked="false"
+        android:layout_marginLeft="53dp"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_toRightOf="@+id/linearLayout" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:onClick="ClearMale"
+        android:id="@+id/femaleButton"
+        android:checked="false"
+        android:layout_alignTop="@+id/maleButton"
+        android:layout_toRightOf="@+id/maleButton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="Fuck"
+        android:id="@+id/registerfinal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/registerLastName"
+        android:background="@drawable/buttons" />
+
+</RelativeLayout>

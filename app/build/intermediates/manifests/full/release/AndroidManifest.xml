@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ChenBahaCareer.fitbookskeleton"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="11" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" >
+    </uses-feature>
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--
+      IMPORTANT: Change "com.parse.tutorials.pushnotifications.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <permission
+        android:name="com.ChenBahaCareer.fitbookskeleton.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ChenBahaCareer.fitbookskeleton.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_final"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.CameraFunction"
+            android:label="@string/title_activity_camera_function" >
+        </activity>
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.profile"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.physique_page"
+            android:label="@string/title_activity_physique_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.RegisterMenu"
+            android:label="@string/title_activity_register_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.TrainingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.TrainingActivityClone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.SharePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.SearchFriends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.Workouts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.notifications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.FriendProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.WorkoutsNoEdits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.TrainingFriend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.WorkoutFriend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ChenBahaCareer.fitbookskeleton.MainMenu"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
+                <category android:name="com.ChenBahaCareer.fitbookskeleton" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ChenBahaCareer.fitbookskeleton.FriendProfileBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.ChenBahaCareer.fitbookskeleton.UPDATE_STATUS" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/push_icon" />
+    </application>
+
+</manifest>

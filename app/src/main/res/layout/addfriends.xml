@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/generic">
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/friendView"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/worked" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/worked"
+        android:hint="Add Friend"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_toLeftOf="@+id/pbutton" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbutton"
+        android:background="@drawable/searchbutton"
+        android:onClick="searchFriends"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/friendView" />
+</RelativeLayout>

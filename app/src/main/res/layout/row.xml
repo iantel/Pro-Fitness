@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+
+    >
+
+    <EditText
+        android:id="@+id/exerciseTextField"
+        android:hint="Exercise"
+        android:inputType="textAutoCorrect"
+        android:maxLength="10">
+        <requestFocus /></EditText>
+
+    <EditText
+        android:id="@+id/weightTextField"
+        android:hint="Weight"
+        android:inputType="numberDecimal"
+        android:maxLength="10">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Sets"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:id="@+id/setTextField" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Reps"
+        android:id="@+id/repTextField" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Goal Reps"
+        android:id="@+id/goalRepTextField" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="64dp"
+        android:layout_height="37dp"
+        android:text="Save"
+        android:id="@+id/button3"
+        android:onClick="getExercise"/>
+
+
+</TableRow>

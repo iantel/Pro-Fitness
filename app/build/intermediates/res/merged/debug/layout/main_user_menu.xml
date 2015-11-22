@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainuserinterface"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:background="@drawable/buttons"
+        android:height="40dp"
+        android:minHeight="0dp"
+        android:onClick="Notifications"
+        android:text="Notifications"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:width="1000dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Cbutton"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/buttons"
+        android:onClick="openContact"
+        android:text="Friends"
+        android:textStyle="italic"
+        android:layout_below="@+id/profileButton"
+        android:layout_alignLeft="@+id/profileButton"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/profileButton" />
+
+    <Button
+        android:id="@+id/Tbutton"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/buttons"
+        android:text="Training"
+        android:onClick="openTraining"
+        android:textStyle="italic"
+        android:layout_below="@+id/Cbutton"
+        android:layout_alignLeft="@+id/Cbutton"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/Cbutton" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/buttons"
+        android:text="Profile"
+        android:onClick="ProfileClass"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/Tbutton"
+        android:layout_alignLeft="@+id/Tbutton"
+        android:layout_alignRight="@+id/Tbutton" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/buttons"
+        android:text="Settings"
+        android:onClick="settings"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignRight="@+id/button7" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_frame"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/profilepicmain"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/unkown_profile_new"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notifframe"
+        android:background="@drawable/notificationsnum"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_toRightOf="@+id/profileButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/notifnum"
+        android:layout_alignTop="@+id/notifframe"
+        android:layout_marginLeft="11dp"
+        android:textColor="#8A8686"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/notifframe" />
+
+</RelativeLayout><!-- From: file:/C:/Users/IK/Desktop/profit/app/src/main/res/layout/main_user_menu.xml -->

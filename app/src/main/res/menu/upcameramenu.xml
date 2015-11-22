@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ChenBahaCareer.fitbookskeleton.MainActivity">
+
+    <item
+        android:id="@+id/loadlib"
+        android:title="Load from Library"  
+        android:onClick="LibraryCalled"></item>
+    <item 
+        android:id="@+id/takepicture"
+        android:title="Take Picture" 
+        android:onClick="CameraCalled"></item>
+</menu>
