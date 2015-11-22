@@ -1,0 +1,7 @@
+C:\Users\IK\Desktop\profit\app\build\intermediates\classes\release
+C:\Users\IK\Desktop\profit\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-cb54dda715910975d8f6f4750fa20a26f5b7ae1f.jar
+C:\Users\IK\Desktop\profit\app\build\intermediates\pre-dexed\release\bolts-android-1.2.0-b52fe4b300323c996bd46d89efe1bb5d39975dfd.jar
+C:\Users\IK\Desktop\profit\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-d103674ba01fadf6b63879948137f69beadc4d61.jar
+C:\Users\IK\Desktop\profit\app\build\intermediates\pre-dexed\release\classes-99709d1719dd2d5880179b50f54b7fa89d9b9ebc.jar
+C:\Users\IK\Desktop\profit\app\build\intermediates\pre-dexed\release\classes-f2fb15698715408c6068d634d197f653f9e13293.jar
+C:\Users\IK\Desktop\profit\app\build\intermediates\pre-dexed\release\Parse-1.9.2-cb75a8b5aa2e95aebcdda2bbfb8f00ab683c407c.jar

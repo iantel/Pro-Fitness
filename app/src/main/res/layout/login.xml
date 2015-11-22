@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/loginpage"
+    android:background="@drawable/generic">
+
+    <EditText
+        android:id="@+id/registerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/registerName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Login"
+        android:text="Login"
+        android:textColor="#c40000"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/passwordInput"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/loginfailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong username and password. Please try again."
+        android:layout_below="@+id/passwordInput"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

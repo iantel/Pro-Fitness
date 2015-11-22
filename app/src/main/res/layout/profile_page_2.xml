@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/generic">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bodybuild"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="WaistDialog"
+        android:text="Waist"
+        android:layout_below="@+id/addORremove"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:id="@+id/addORremove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ChestDialog"
+        android:text="Chest"
+        android:layout_below="@+id/pbutton"
+        android:layout_toLeftOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CalfDialog"
+        android:text="Calf"
+        android:layout_below="@+id/button5"
+        android:layout_alignRight="@+id/button5"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:id="@+id/pbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:onClick="ArmDialog"
+        android:text="Arm"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/addORremove"
+        android:layout_marginLeft="35dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="QuadDialog"
+        android:text="Quad"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/button4"
+        android:layout_toRightOf="@+id/button4" />
+
+</RelativeLayout>

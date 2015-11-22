@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/generic"
+    android:id="@+id/accoutnsettings">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Account Settings"
+        android:textColor="#c40000"
+        android:id="@+id/textView5"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/a_lastname"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/a_name"
+        android:layout_alignTop="@+id/a_lastname"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/a_lastname"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/a_email"
+        android:hint="E-mail Address"
+        android:layout_below="@+id/a_lastname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/a_email"
+        android:layout_centerHorizontal="true">
+
+        <Spinner
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/Year"
+            android:text="Year"
+            android:id="@+id/a_year" />
+
+        <Spinner
+            android:layout_width="78dp"
+            android:text="Month"
+            android:entries="@array/month"
+            android:layout_height="wrap_content"
+            android:id="@+id/a_month" />
+
+        <Spinner
+            android:layout_width="78dp"
+            android:text="Day"
+            android:entries="@array/day"
+            android:layout_height="wrap_content"
+            android:id="@+id/a_date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout4">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/a_currentpassword"
+            android:hint="Enter Current Password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/a_newpassword"
+            android:hint="Enter New Password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:id="@+id/a_confirmpassword"
+            android:hint="Confirm New Password" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/a_save"
+        android:onClick="SaveInformation"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

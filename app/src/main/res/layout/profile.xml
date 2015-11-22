@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/viewprofilelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/profile_frame"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/linearLayout2">
+
+        <ImageView
+            android:id="@+id/profileview1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:onClick="PopupMenu"
+            android:src="@drawable/unkown_profile_new"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttons"
+        android:text="Training"
+        android:onClick="openTraining"
+        android:textSize="13sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/workout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workout 1"
+            android:textColor="#c40000"
+         />
+
+        <TextView
+            android:id="@+id/viewOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/workout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#c40000" />
+
+        <TextView
+            android:id="@+id/viewTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/workout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#c40000" />
+
+        <TextView
+            android:id="@+id/viewThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loadprofilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Profile Name"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColor="#c40000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/viewprofilelayout"
+        android:layout_toRightOf="@+id/frameLayout1"
+        android:layout_marginLeft="29dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/buttons"
+        android:onClick="ProfileSettings"
+        android:text="Edit"
+        android:textSize="13sp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/generic">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bodybuild2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/addORremove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ChestDialog"
+        android:text="Chest"
+        android:layout_alignBottom="@+id/frameLayout1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:onClick="WaistDialog"
+        android:text="Waist"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_toLeftOf="@+id/button6"
+        android:layout_marginTop="24dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbutton"
+        android:layout_marginRight="42dp"
+        android:layout_toLeftOf="@+id/button4" >
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CalfDialog"
+        android:text="Calf"
+        android:layout_below="@+id/button5"
+        android:layout_toRightOf="@+id/addORremove"
+        android:layout_marginTop="51dp" />
+
+    <Button
+        android:id="@+id/pbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="ArmDialog"
+        android:text="Arm"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:onClick="QuadDialog"
+        android:text="Quad"
+        android:layout_below="@+id/button4"
+        android:layout_alignRight="@+id/button6"
+        android:layout_marginTop="33dp"
+        android:layout_alignLeft="@+id/addORremove" />
+
+</RelativeLayout>

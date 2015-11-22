@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/generic"
+    android:id="@+id/profilesettings">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Favourite Exercises"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:textColor="#c40000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsview1"
+        android:inputType="text"
+        android:maxLength="12"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsview2"
+        android:inputType="text"
+        android:maxLength="12"
+        android:layout_below="@+id/settingsview1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/settingsview1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="12"
+        android:id="@+id/settingsview3"
+        android:layout_below="@+id/settingsview2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/settingsview2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="4"
+        android:ems="10"
+        android:id="@+id/settingsnum1"
+        android:layout_below="@+id/textView9"
+        android:layout_toRightOf="@+id/textView9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="4"
+        android:id="@+id/settingsnum2"
+        android:layout_below="@+id/settingsview1"
+        android:layout_toRightOf="@+id/settingsview2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="4"
+        android:id="@+id/settingsnum3"
+        android:layout_alignBottom="@+id/settingsview3"
+        android:layout_toRightOf="@+id/settingsview3" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pound"
+        android:onClick="ClearKilograms"
+        android:id="@+id/checkPound"
+        android:checked="false"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/textView3" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kilogram"
+        android:onClick="ClearPounds"
+        android:id="@+id/checkKilo"
+        android:checked="false"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#c40000"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/settingsview3"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/checkKilo"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_marginTop="47dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Units"
+        android:id="@+id/textView3"
+        android:textColor="#c40000"
+        android:layout_above="@+id/checkKilo"
+        android:layout_alignRight="@+id/textView2" />
+
+</RelativeLayout>

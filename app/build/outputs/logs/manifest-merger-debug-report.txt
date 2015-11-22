@@ -1,0 +1,300 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:2:1-152:12
+	xmlns:android
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:appcompat-v7:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:7:15-40
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:10:9-49
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:13:22-76
+uses-feature#android.hardware.camera
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:15:5-16:20
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:15:19-57
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:18:5-20:38
+	android:maxSdkVersion
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:20:9-35
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:19:9-65
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:21:5-83
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:21:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:22:5-24:38
+	android:maxSdkVersion
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:24:9-35
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:23:9-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:28:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:30:5-66
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:30:22-63
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:31:5-71
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:31:22-68
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:32:5-82
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:32:22-79
+permission#com.ChenBahaCareer.fitbookskeleton.permission.C2D_MESSAGE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:38:5-40:47
+	android:protectionLevel
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:40:9-44
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:39:9-81
+uses-permission#com.ChenBahaCareer.fitbookskeleton.permission.C2D_MESSAGE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:42:5-97
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:42:22-94
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:43:22-78
+application
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:45:5-150:19
+MERGED from [com.android.support:appcompat-v7:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:appcompat-v7:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\IK\Desktop\profit\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:48:9-41
+	android:allowBackup
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:46:9-35
+	android:icon
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:47:9-44
+	android:theme
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:49:9-40
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:50:9-35
+activity#com.ChenBahaCareer.fitbookskeleton.MainActivity
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:51:9-60:20
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:54:13-49
+	android:label
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:52:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:58:27-74
+activity#com.ChenBahaCareer.fitbookskeleton.CameraFunction
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:63:13-67
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:62:13-43
+activity#com.ChenBahaCareer.fitbookskeleton.profile
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:65:9-69:20
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:67:13-59
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:66:13-36
+activity#com.ChenBahaCareer.fitbookskeleton.physique_page
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:70:9-74:20
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:72:13-65
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:71:13-42
+activity#com.ChenBahaCareer.fitbookskeleton.RegisterMenu
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:75:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:77:13-65
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:76:13-41
+activity#com.ChenBahaCareer.fitbookskeleton.TrainingActivity
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:81:13-45
+activity#com.ChenBahaCareer.fitbookskeleton.TrainingActivityClone
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:83:9-85:48
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:85:9-45
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:84:9-46
+activity#com.ChenBahaCareer.fitbookskeleton.SharePage
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:87:13-38
+activity#com.ChenBahaCareer.fitbookskeleton.SearchFriends
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:90:13-42
+activity#com.ChenBahaCareer.fitbookskeleton.Workouts
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:92:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:93:13-37
+activity#com.ChenBahaCareer.fitbookskeleton.notifications
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:96:13-42
+activity#com.ChenBahaCareer.fitbookskeleton.Settings
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:99:13-37
+activity#com.ChenBahaCareer.fitbookskeleton.FriendProfile
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:102:13-42
+activity#com.ChenBahaCareer.fitbookskeleton.WorkoutsNoEdits
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:105:13-44
+activity#com.ChenBahaCareer.fitbookskeleton.TrainingFriend
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:107:9-109:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:108:13-43
+activity#com.ChenBahaCareer.fitbookskeleton.WorkoutFriend
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:111:13-42
+activity#com.ChenBahaCareer.fitbookskeleton.MainMenu
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:114:13-37
+service#com.parse.PushService
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:117:9-57
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:117:18-54
+receiver#com.parse.ParseBroadcastReceiver
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:119:9-124:20
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:119:19-66
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:120:13-123:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:121:17-79
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:121:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:122:17-77
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:122:25-74
+receiver#com.parse.GcmBroadcastReceiver
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:125:9-135:20
+	android:permission
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:127:13-73
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:126:13-58
+intent-filter#com.ChenBahaCareer.fitbookskeleton+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:128:13-134:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:129:17-81
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:129:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:130:17-86
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:130:25-83
+category#com.ChenBahaCareer.fitbookskeleton
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:133:17-79
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:133:27-76
+receiver#com.ChenBahaCareer.fitbookskeleton.FriendProfileBroadcastReceiver
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:136:9-145:20
+	android:exported
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:138:13-37
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:137:13-59
+intent-filter#com.ChenBahaCareer.fitbookskeleton.UPDATE_STATUS+com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:139:13-144:29
+action#com.parse.push.intent.RECEIVE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:140:17-72
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:140:25-69
+action#com.parse.push.intent.DELETE
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:141:17-71
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:141:25-68
+action#com.parse.push.intent.OPEN
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:142:17-69
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:142:25-66
+action#com.ChenBahaCareer.fitbookskeleton.UPDATE_STATUS
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:143:17-91
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:143:25-88
+meta-data#com.parse.push.notification_icon
+ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:147:9-149:54
+	android:resource
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:149:13-51
+	android:name
+		ADDED from C:\Users\IK\Desktop\profit\app\src\main\AndroidManifest.xml:148:13-60

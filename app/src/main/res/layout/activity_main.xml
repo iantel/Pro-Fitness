@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.ChenBahaCareer.fitbookskeleton.MainActivity"
+    android:background="@drawable/bg">
+
+    <requestFocus />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageanimation"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/loginbackplate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:onClick="OpenLogin"
+        android:textSize="19sp"
+        android:background="@drawable/loginbutton"
+        android:textStyle="italic"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/textView"
+        android:layout_alignLeft="@+id/textView" />
+
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:background="@drawable/signupbutton"
+        android:layout_height="wrap_content"
+        android:onClick="RegisterMenu"
+        android:text="Sign Up"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        android:textColor="#C40000"
+        android:clickable="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="33dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
