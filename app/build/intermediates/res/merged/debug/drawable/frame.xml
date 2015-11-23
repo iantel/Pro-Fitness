@@ -7,4 +7,4 @@
         android:bottom="6dp" />
     <corners android:radius="1dp" />
     <stroke android:width="6dp" android:color="#c40000" />
-</shape><!-- From: file:/C:/Users/IK/Desktop/profit/app/src/main/res/drawable/frame.xml -->
+</shape><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/drawable/frame.xml -->

@@ -64,4 +64,4 @@
         android:layout_below="@+id/button4"
         android:layout_toRightOf="@+id/button4" />
 
-</RelativeLayout><!-- From: file:/C:/Users/IK/Desktop/profit/app/src/main/res/layout/profile_page_2.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/layout/profile_page_2.xml -->

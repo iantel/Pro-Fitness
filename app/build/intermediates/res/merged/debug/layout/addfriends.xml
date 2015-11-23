@@ -29,4 +29,4 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_above="@+id/friendView" />
-</RelativeLayout><!-- From: file:/C:/Users/IK/Desktop/profit/app/src/main/res/layout/addfriends.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/layout/addfriends.xml -->

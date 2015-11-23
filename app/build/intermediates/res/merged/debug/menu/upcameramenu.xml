@@ -1,7 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.ChenBahaCareer.fitbookskeleton.MainActivity" >
+    tools:context="com.ChenBahaCareer.fitbookskeleton.MainActivity">
 
     <item
         android:id="@+id/loadlib"
@@ -12,4 +11,4 @@
         android:title="Take Picture" 
         android:onClick="CameraCalled"></item>
 </menu>
-<!-- From: file:/C:/Users/IK/Desktop/profit/app/src/main/res/menu/upcameramenu.xml -->
+<!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/menu/upcameramenu.xml -->

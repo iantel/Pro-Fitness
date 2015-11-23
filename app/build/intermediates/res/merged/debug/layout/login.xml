@@ -46,4 +46,4 @@
         android:text="Wrong username and password. Please try again."
         android:layout_below="@+id/passwordInput"
         android:layout_centerHorizontal="true" />
-</RelativeLayout><!-- From: file:/C:/Users/IK/Desktop/profit/app/src/main/res/layout/login.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/layout/login.xml -->
