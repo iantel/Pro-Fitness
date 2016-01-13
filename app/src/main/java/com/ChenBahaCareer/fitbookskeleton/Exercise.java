@@ -16,6 +16,7 @@ public class Exercise {
         this.reps = r;
     }
     public String toString(){
+        System.out.println("Returning Exercise");
         return this.name + " " + this.weight + " " + this.sets + " " + this.reps;
     }
 

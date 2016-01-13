@@ -51,6 +51,7 @@ public class SharePage extends Activity implements AdapterView.OnItemClickListen
 
     public void getFriends(){
         current_friends.removeAll(current_friends);
+        ParseQuery<ParseObject> qt = ParseQuery.getQuery("Friendship");
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Friendship");
         ParseQuery<ParseObject> query2 = ParseQuery.getQuery("Friendship");
         query.whereEqualTo("toUser", ParseUser.getCurrentUser().getUsername());

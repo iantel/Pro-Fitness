@@ -123,4 +123,4 @@
         android:layout_above="@+id/checkKilo"
         android:layout_alignRight="@+id/textView2" />
 
-</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/layout/profilesettings_dialog.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fitness/app/src/main/res/layout/profilesettings_dialog.xml -->

@@ -145,4 +145,4 @@
         android:layout_alignRight="@+id/registerLastName"
         android:background="@drawable/buttons" />
 
-</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/layout/registermenu.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fitness/app/src/main/res/layout/registermenu.xml -->

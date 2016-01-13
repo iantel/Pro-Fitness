@@ -9,4 +9,4 @@
         android:layout_height="503dp"
         android:id="@+id/tos"
         android:layout_gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/layout/tos.xml -->
+</LinearLayout><!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fitness/app/src/main/res/layout/tos.xml -->

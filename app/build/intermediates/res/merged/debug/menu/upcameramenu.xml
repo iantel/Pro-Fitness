@@ -11,4 +11,4 @@
         android:title="Take Picture" 
         android:onClick="CameraCalled"></item>
 </menu>
-<!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fit/app/src/main/res/menu/upcameramenu.xml -->
+<!-- From: file:/C:/Users/IK/Documents/GitHub/Pro-Fitness/app/src/main/res/menu/upcameramenu.xml -->

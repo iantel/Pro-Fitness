@@ -1,6 +1,6 @@
 ECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
-
+TEST PART
 Manifest Merging:
 -----------------
 Your project uses libraries that provide manifests, and your Eclipse
