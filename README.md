@@ -1,4 +1,5 @@
-# Pro-Fitness
+# <img src="https://lh3.googleusercontent.com/PBWqSXo-sGEyql7d_0kSh4TpaWOCKwl_BlutygfEMN3VoMaw_gySfnniX7ExbiXdN_w=w300-rw" alt="Whatup" style="width:10px;height:10px;"> Pro-Fitness 
+
 A social fitness app targetted between trainers and clients. <br>
 Easy communication between weight lifters, trainers and friends.
 
